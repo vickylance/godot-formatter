@@ -1,7 +1,7 @@
 tool
 extends EditorPlugin
 
-var gdformatter_path = "/usr/local/bin/gdformat"
+var gdformatter_path = ""
 var config_file = "user://gdformatter.cfg"
 var files = []
 var filesystem_interface := get_editor_interface().get_resource_filesystem()
